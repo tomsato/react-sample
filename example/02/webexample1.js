@@ -1,31 +1,31 @@
 var Header = React.createClass({
-		render: function() {
-					return  <div className="header-innner">
-							<h1>Hello, World!</h1>
-							</div>;
-				}
+	render: function() {
+		return  <div className="header-innner">
+				<h1>Hello, World!</h1>
+				</div>;
+	}
 });
 var Footer = React.createClass({
-		render: function() {
-					return  <div className="footer-innner">
-							<hr/>
-							<p>copyright 2016 <br/>hoge</p>
-							</div>;
-				}
+	render: function() {
+		return  <div className="footer-innner">
+				<hr/>
+				<p>copyright 2016 <br/>hoge</p>
+				</div>;
+	}
 });
 var Main = React.createClass({
-		render: function() {
-					return  <ul className="main-innner">
-							<li id="content-1">hoge</li>
-							</ul>;
-				}
+	render: function() {
+		return  <ul className="main-innner">
+				<li id="content-1">hoge</li>
+				</ul>;
+	}
 });
 var Section= React.createClass({
-		render: function() {
-					return  <div className="section-innner">
-							<p>hoge hoge</p>
-							</div>;
-				}
+	render: function() {
+		return  <div className="section-innner">
+				<p>hoge hoge</p>
+				</div>;
+	}
 });
 
 ReactDOM.render(<Header />, document.getElementById('header'));
