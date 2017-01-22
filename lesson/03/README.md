@@ -1,0 +1,2 @@
+# Component
+* stateとpropについて見る
